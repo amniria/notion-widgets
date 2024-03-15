@@ -65,12 +65,22 @@
 		background-color: #9aa895;
 		color: white;
 	}
+	#start:hover{
+		background-color: #778b70;
+		color: white;
+	}
 
 	#reset{
 		background-color: transparent;
 		color: #9aa895;
 		border: 1px solid #9aa895;
 	}
+	#reset:hover{
+		background-color: #9aa895;
+		color: white;
+		border: 1px solid #9aa895;
+	}
+		
 
         .volume-control {
             display: flex;
@@ -150,7 +160,7 @@
 
 		shortBreakButton.addEventListener('click', () => {
 			clearInterval(countdown);
-			time = 20;
+			time = 300;
 			updateTimer();
 		});
 
